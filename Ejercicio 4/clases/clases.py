@@ -24,7 +24,7 @@ class Inventario:
     def mostrar_inventario(self):
         print("Contenido del almacén:")
         for item in self.items:
-            print(f"\nCódigo: {item.codigo}, Nombre: {item.nombre}, Precio: C$ {item.precio}, Cantidad: {item.stock}")
+            print(f"\nCódigo: {item.codigo}, Nombre: {item.nombre}, Precio: {item.precio}, Cantidad: {item.stock}")
 
 
 class Producto:

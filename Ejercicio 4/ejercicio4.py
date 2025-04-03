@@ -2,7 +2,7 @@ import clases.clases as c
 
 inventario = c.Inventario()
 while True:
-    print("1. Agregar producto")
+    print("1. Añadir producto")
     print("2. Eliminar producto")
     print("3. Buscar producto")
     print("4. Mostrar inventario")
@@ -31,3 +31,5 @@ while True:
         break
     else:
         print("Digite una opcion valida")
+
+        
